@@ -28,7 +28,7 @@ The real dataset can be requested from the corresponding author under a data use
 
 ├── CNN\_training\_validation\_test\_2D\_multi\_level.m 	# Step 3: 10 seeds ×10-folds CV training, performance evaluation, ROC curves
 
-├── loadSerumSpectra.m 		# Utility: load spectra from Excel
+├── loadSerumSpectra.m 		# Utility: load spectra from **xxx.mat** files
 
 ├── qualityControl.m 			# Utility: quality control of spectra
 
