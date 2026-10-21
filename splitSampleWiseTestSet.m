@@ -1,4 +1,4 @@
-function [trainIdx, testIdx, trainSampleIdx] = splitSampleWiseTestSet(sampleLens, sampleLabels, testRatio)
+function [trainIdx, testIdx, trainSampleIdx, testSampleIdx] = splitSampleWiseTestSet(sampleLens, sampleLabels, testRatio)
 % 按照样本数量进行训练验证集、测试集的随机划分
 % sampleLens: 每个样本的光谱数（列向量）
 % testRatio: 测试集按样本数量划分比例（0~1之间）
