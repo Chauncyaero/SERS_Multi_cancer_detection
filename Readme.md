@@ -28,6 +28,10 @@ The real dataset can be requested from the corresponding author under a data use
 
 ├── CNN\_training\_validation\_test\_2D\_multi\_level.m 	# Step 3: 10 seeds ×10-folds CV training, performance evaluation, ROC curves
 
+├── CNN\_2D\_hierarchical\_CAM.m 	# Grad-CAM calculation for hierarchical CNN
+
+├── Controlled\_feature\_layer\_comparision.m 	# Controlled experiment to visualize relationship between CAM sharpness and feature layer resolution
+
 ├── loadSerumSpectra.m 		# Utility: load spectra from **xxx.mat** files
 
 ├── qualityControl.m 			# Utility: quality control of spectra
